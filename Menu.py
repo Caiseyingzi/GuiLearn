@@ -17,3 +17,15 @@ class Window(QWidget):
     def setup_ui(self):
         label = QLabel(self)
         label.setText("xxx")
+
+
+if __name__ == '__main__':
+    import sys
+
+    app = QApplication(sys.argv)
+
+    window = Window()
+
+    window.show()
+
+    sys.exit(app.exec_())

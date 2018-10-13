@@ -18,3 +18,4 @@ window.show()
 
 # 3. 应用程序的执行，进入到消息循环
 sys.exit(app.exec_())
+
