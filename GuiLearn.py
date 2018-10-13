@@ -11,8 +11,10 @@ class Window(QWidget):
         # 在类内部调用自己，设置控制
         self.setWindowTitle("QLabel的学习")
         self.resize(500, 500)
+        self.setup_ui()
 
-        # 创建子控件
+    # 把子控件设置成一个方法
+    def setup_ui(self):
         label = QLabel(self)
         label.setText("xxx")
 
